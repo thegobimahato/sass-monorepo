@@ -1,0 +1,1 @@
+export type Factory<Shape> = (object?: Partial<Shape>) => Shape;
