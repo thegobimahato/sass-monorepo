@@ -1,0 +1,40 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.next
+out
+dist
+build
+
+# Turbo cache
+.turbo
+
+# Vercel
+.vercel
+
+# Coverage
+coverage
+
+# Cache
+.cache
+
+# Generated files
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Prisma generated client (if generated into repo)
+prisma/generated
+
+# Lockfiles (optional)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
